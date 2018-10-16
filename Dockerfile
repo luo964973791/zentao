@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:latest
 MAINTAINER Swire Chen <idoop@msn.cn>
 
 ARG ZENTAO_URL=http://dl.cnezsoft.com/zentao/10.3/ZenTaoPMS.10.3.stable.zbox_64.tar.gz
