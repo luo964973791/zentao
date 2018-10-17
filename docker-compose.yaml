@@ -6,7 +6,7 @@ services:
     # if web response code: 310 ERR_TOO_MANY_REDIRECTS, please use host mode.
 #    network_mode: "host"
     ports:
-      - "80:80"
+      - "666:80"
       - "3308:3306"
     #登陆mysql localhost:3308 user:root pawd:123456
     # mysql root account default password is '123456'.
@@ -20,3 +20,6 @@ services:
     volumes:
       - ./data:/opt/zbox/
     restart: always
+    #登陆 http://localhost:666
+    # user : admin
+    #passwd: 123456
