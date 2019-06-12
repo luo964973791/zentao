@@ -9,6 +9,11 @@ services:
       - "666:80"
       - "3308:3306"
     #登陆mysql localhost:3308 user:root pawd:123456
+    #系统: MySQL
+    #用户: root
+    #数据库: zentao
+    #密码: 123456
+    #服务器: localhost:3308
     # mysql root account default password is '123456'.
     # the zentao adminstrator account is 'admin',and init password is '123456'.
     environment:
